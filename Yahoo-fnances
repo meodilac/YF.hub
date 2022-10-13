@@ -24,7 +24,8 @@ end_date should be entered in the 'YYYY-MM-DD' format and is the last day that d
 
 time_interval can be either 'daily', 'weekly', or 'monthly'. This variable determines the time period interval for your pull.
 
-get_num_shares_outstanding(price_type='current')
+>get_num_shares_outstanding(price_type='current')
 
-from yahoofinancials import YahooFinancials 
-tech_stocks = ['AAPL', 'MSFT', 'INTC']
+>from yahoofinancials 
+>import YahooFinancials 
+>tech_stocks = ['AAPL', 'MSFT', 'INTC']
